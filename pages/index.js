@@ -70,7 +70,6 @@ const Index = (props) => {
                 <ul>
                     {
                         props.data.items.map( (item, index) => {
-                            console.log(item)
                             return (
                                 <li key={index}>
                                     Name:
